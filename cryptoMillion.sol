@@ -38,7 +38,6 @@ contract cryptoMillion {
 	}
 
 	function buy(address payable _address, uint64 numbers)
-		onlyOwner
 		unpackCheck(numbers)
 		external
 		payable
